@@ -1,4 +1,4 @@
-import { LoginImage } from '../components/TextField/LoginImage/LoginImage';
+import { LoginImage } from '../components/LoginImage/LoginImage';
 import { TextField } from '../components/TextField/TextField';
 import './ListOfTextFields.css';
 
