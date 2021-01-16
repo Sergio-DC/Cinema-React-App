@@ -1,3 +1,4 @@
+import { LoginImage } from '../components/TextField/LoginImage/LoginImage';
 import { TextField } from '../components/TextField/TextField';
 import './ListOfTextFields.css';
 
@@ -18,6 +19,8 @@ export const ListOfTextFields = () => {
             <input type="text" placeholder="Escribe"></input>
             <TextField/>
             <TextField/>
+            <LoginImage/>
+            <LoginImage/>
         </div>
 
         )

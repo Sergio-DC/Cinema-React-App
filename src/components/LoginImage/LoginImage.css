@@ -1,0 +1,19 @@
+.ellipse {
+    width: 213px;
+    height: 203px;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    /* padding-top: 17px;
+    padding-bottom: 17px; */
+    /* padding-left: 56px;
+    padding-right: 56px; */
+}
+
+.profile_picture {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    padding-left: 56px;
+    padding-right: 56px;
+}
