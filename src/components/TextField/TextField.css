@@ -1,0 +1,29 @@
+.custom_textfield {
+    /* position: relative;*/
+    width: 343px;
+    height: 72px;
+    /*left: 16px;
+    top: 25px; */
+    /* background-color: aquamarine ; */
+}
+
+.custom_textfield > div {
+    /*position: absolute;*/ /*Don't use this because the child elements never move with his father*/
+    /* top: 0px;
+    left: 5px; */ /*This props dont work without the absolute value*/
+    padding-left: 5px;
+    padding-bottom: 8px;
+    color: black;
+
+}
+
+.custom_textfield > input {
+    /* position: absolute; *//*Don't use this because the child elements never move with his father*/
+    /*top: 27px; */ /*This props dont work without the absolute value*/
+    height: 45px;
+    width: 343px;
+    left: 0px;
+    border: 1px solid #918D8D;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
